@@ -1,0 +1,304 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo-line {
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.bg {
+    height: 740px;
+    background: url(img/bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.bg-text {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+}
+
+.bg-text h1 {
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.bg-text p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.years {
+    display: flex;
+    background-color: #f7f7f7;
+    width: 1100px;
+    padding: 40px 0;
+    margin: 160px auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#year h1 {
+    color: #F7654A;
+    font-size: 72px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 10px;
+}
+#year h2 {
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0;
+}
+#year p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #999999;
+    margin: 0;
+}
+.proects {
+    width: 1100px;
+    margin: 300px auto 0 auto;
+    text-align: center;
+}
+.proect {
+    display: flex;
+    justify-content: space-between;
+}
+#proect {
+    width: 350px;
+    text-align: left;
+}
+#proect h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 60;
+}
+#proect p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #999999;
+}
+.line {
+    width: 60px;
+    height: 5px;
+    margin-top: 50px;
+    border: 1px solid #F7654A;
+    background-color: #F7654A;
+}
+.title {
+    margin-bottom: 60px;
+    color: #404149;
+    font-weight: 500;
+}
+.orange-line {
+    height: 180px;
+    background-color: #F7654A;
+    margin-top: 130px;
+}
+.line-container {
+    width: 1100px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+}
+.line-container h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 48px;
+}
+ .line-container h2 {
+    margin: 0;
+    font-size: 24px;
+}
+.line-text {
+    padding-top: 30px;
+}
+.btn {
+    margin-top: 80px; 
+    font-size: 17px; 
+}
+.btn img {
+    padding-right: 15px;
+}
+.btn a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid white;
+    background-color: white;
+}
+.doing {
+    width: 1100px;
+    margin: 170px auto;
+}
+.doing h1 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.blocks {
+    display: flex;
+    justify-content: space-between;
+}
+.blocks-2 {
+    margin-top: 25px;
+}
+.block {
+    width: 350px;
+    height: 250px;
+    background-color: #f7f7f7;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+}
+.block img {
+    padding-top: 50px;
+}
+.repeat {
+    height: 814px;
+    width: 1480px;
+    margin: 0 auto;
+}
+.repeat p {
+    font-size: 0;
+}
+.spisok {
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.spisok h1 {
+    margin-bottom: 60px;
+}
+.spisok p {
+    margin-top: 25px;
+}
+.obsh {
+    font-size: 24px;
+    color: #F7654A;
+    text-align: left;
+    font-weight: 500;
+}
+.unik {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 570px;
+    color: #999999;
+}
+.spisok img {
+    padding-right: 15px;
+    padding-bottom: 3px;
+}
+.partner {
+    height: 360px;
+    background-color: #404149;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    margin-bottom: 170px;
+}
+.partner h1 {
+    padding-top: 100px;
+    padding-bottom: 25px;
+    font-size: 36px;
+    font-weight: 500;
+}
+.berk {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.reviews {
+    width: 1100px;
+    margin: 0 auto;
+}
+.reviews h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+}
+.review-blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.review-bg {
+    width: 285px;
+    background-color: #f7f7f7;
+    text-align: left;
+    padding: 30px;
+}
+.review p {
+    font-size: 16px;
+    color: #999999;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.review h2 {
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.color {
+    color: #F7654A;
+}
+.contacts {
+    width: 1100px;
+    margin: 120px auto;
+    text-align: center;
+}
+.contact-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    width: 255px;
+}
+.contact h1 {
+    color: #999999;
+    font-size: 24px;
+}
+.mail {
+    padding-top: 13px;
+}
+.contact p {
+    font-size: 24px;
+    font-weight: 500;
+}
+.cont-title {
+    margin-bottom: 70px;
+}
+footer {
+    background-color: #404149;
+    height: 80px;
+}
+.footer-text {
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 14px;
+    width: 1100px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+}
